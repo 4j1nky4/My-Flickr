@@ -13,7 +13,7 @@ import Foundation
 class WebService {
     
     // API Key for Authentication
-    private let apiKey = "7HjopD897z4hzQT58K19Z0oGBReYsNnboWCY07lDa2mcZvOtzPi6PkNu"
+    private let apiKey = "Your API Key"
     private let apiUrl = "https://api.pexels.com/v1/search?query=sunrise&per_page=40"
 
     func fetchImages(completion: @escaping ([ImageData]?) -> Void) {
